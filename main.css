@@ -1,0 +1,41 @@
+body {
+  background-color: lightyellow;
+}
+
+#rating-bars {
+  width: 400px;
+}
+
+.rating {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+#rating-bars li {
+  overflow: auto;
+  margin: 5px 0;
+}
+
+#rating-bars li .progress-wrapper {
+  background-color: lightgray;
+  float: left;
+  width: 90%;
+  border-radius: 9px 9px;
+  overflow: hidden;
+}
+
+#rating-bars li span {
+  display: inline-block;
+}
+
+#rating-bars li .progress {
+  background-color: blue;
+  height: 21px;
+  display: block;
+}
+
+#rating-bars li .counter {
+  float: right;
+}
